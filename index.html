@@ -4,12 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project - HTML & CSS - RWD</title>
-    <link rel="stylesheet" href="./styles/global.css" media="(max-width: 767px)">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/global.css">
     <link rel="stylesheet" href="./styles/mobile.css" media="(max-width: 767px)">
     <link rel="stylesheet" href="./styles/tablet.css" media="(min-width: 768px) and (max-width: 1199px)">
     <link rel="stylesheet" href="./styles/desktop.css" media="(min-width: 1200px)">
 </head>
-<body>
+<body>  
+
+    <header class="header">
+        <nav class="navbar__container">
+
+            <div class="navbar__logo">AppLab</div>
+
+            <input type="checkbox" class="navbar__menu-toggle" id="menu-toggle">
+            <label for="menu-toggle" class="navbar__hamburger">
+                <span class="hamburger__element hamburger__element--first"></span>
+                <span class="hamburger__element hamburger__element--second"></span>
+                <span class="hamburger__element hamburger__element--third"></span>
+            </label>
+
+            <ul class="navbar__list">
+
+                <li class="navbar__element">
+                    <a href="" class="navbar__link">Home</a>
+                </li>
+
+                <li class="navbar__element">
+                    <a href="" class="navbar__link">Features</a>
+                </li>
+
+                <li class="navbar__element">
+                    <a href="" class="navbar__link">Pricing</a>
+                </li>
+
+                <li class="navbar__element">
+                    <a href="" class="navbar__link">Blog</a>
+                </li>
+
+                <li class="navbar__element">
+                    <a href="" class="navbar__link">Pages</a>
+                </li>
+
+                <li class="navbar__element">
+                    <a href="" class="navbar__link">Contact</a>
+                </li>
+            </ul>
+
+            <button class="navbar__button">Download</button>
+        </nav>
+    </header>
+
+    <main class="hero">
+        <div class="hero__container">
+            <div class="hero__description">
+                <h1 class="hero__title">Promote Your App With Applab</h1>
+                <p class="hero__paragraph">Get more users to promote your app with this template</p>
+                <button class="hero__button">Get Start Now</button>
+            </div>
+            <img src="images/phone.png" alt="phone image" class="hero__image">
+        </div>
+    </main>
     
 </body>
 </html>
