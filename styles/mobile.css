@@ -48,6 +48,7 @@
     height: 3px;
     background-color: white;
     display: block;
+    transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 .navbar__menu-toggle:checked ~ .navbar__list {
@@ -75,4 +76,56 @@
 
 .navbar__link:hover {
     color: var(--color-primary);
+}
+
+.navbar__menu-toggle:checked ~ .navbar__hamburger .hamburger__element--first {
+    transform: rotate(45deg) translate(7px, 7px);
+}
+
+.navbar__menu-toggle:checked ~ .navbar__hamburger .hamburger__element--second {
+    opacity: 0;
+}
+
+.navbar__menu-toggle:checked ~ .navbar__hamburger .hamburger__element--third {
+    transform: rotate(-45deg) translate(7px, -7px);
+}
+
+
+/* STYLES FOR SECTION - HERO */
+
+.hero {
+    width: 100%;
+}
+
+.hero__container {
+    padding: 50px 20px 0 20px;
+    background-color: purple;
+}
+
+.hero__title {
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 200;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.hero__paragraph {
+    display: block;
+    color: white;
+    font-size: 19px;
+    font-weight: 400;
+    padding: 25px 0 60px 0;
+}
+
+.hero__button {
+    font-size: 20px;
+    font-weight: 500;
+    background-color: var(--color-buttons);
+    color: white;
+    border: none;
+    padding: 20px 30px;
+    border-radius: 7px;
+    letter-spacing: 3px;
+
 }
