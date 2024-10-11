@@ -65,6 +65,7 @@
     flex-direction: column;
     align-items: center;
     box-shadow: 0 3px 3px lightgrey;
+    z-index: 1;
 }
 
 .navbar__link {
@@ -99,7 +100,14 @@
 
 .hero__container {
     padding: 50px 20px 0 20px;
-    background-color: purple;
+    background-image: url("/images/banner/banner.png");
+    background-position: center -70px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .hero__title {
@@ -127,5 +135,11 @@
     padding: 20px 30px;
     border-radius: 7px;
     letter-spacing: 3px;
-
+    margin-bottom: 100px;
 }
+
+.hero__image {
+    width: 100%;
+    height: auto;
+}
+
