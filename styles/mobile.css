@@ -225,7 +225,6 @@
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    margin-bottom: 50px;
 }
 
 .reviews__container {
@@ -235,7 +234,6 @@
     z-index: 2;
     position: relative; /* DLACZEGO TO JEST KONIECZNE W TYM PRZYPADKU?*/
     color: white;
-    
 }
 
 .reviews__overlay {
@@ -247,7 +245,6 @@
     background-color: #5EB2FD;
     opacity: 0.85;
     z-index: 1;
-
 }
 
 .reviews__rating {
