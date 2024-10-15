@@ -85,7 +85,7 @@
 
 /* STYLES FOR SECTION - HERO */
 
-.hero, .features, .reviews {
+.hero, .features, .reviews, .pricing {
     width: 100%;
 }
 
@@ -140,7 +140,7 @@
     padding-bottom: 60px;
 }
 
-.features__title, .icon__title, .description__title, .reviews__title {
+.features__title, .icon__title, .description__title, .reviews__title, .pricing__title {
     font-size: 34px;
     line-height: 40px;
     font-weight: 200;
@@ -198,7 +198,7 @@
     padding: 130px 20px 0 20px;
 }
 
-.features__paragraph, .reviews__comment {
+.features__paragraph, .reviews__comment, .pricing__description {
     color:var(--color-nav);
     font-size: 20px;
     line-height: 36px;
@@ -217,7 +217,7 @@
 
 
 
-/* STYLE DLA SEKCJI REVIEWS */
+/* STYLES FOR SECTION - REVIEWS */
 
 .reviews {
     background-image: url(/images/banner/testmonial.png);
@@ -269,4 +269,92 @@
 
 .rating__author {
     padding-left: 5px;
+}
+
+/* STYLES FOR SECTION - PRICING */
+
+.pricing__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.pricing__titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing__description {
+    text-align: center;
+}
+
+.pricing__plans {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plan {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 1px 15px lightgrey;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+
+.plan__header {
+    width: 100%;
+    height: 5em;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 22px;
+}
+
+.plan__list {
+    list-style: none;
+    text-align: center;
+    color: var(--color-nav)
+}
+
+.plan__element {
+    padding: 22px 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.plan__button {
+    border: 1px solid var(--color-primary);
+    background-color: transparent;
+    color: var(--color-primary);
+    letter-spacing: normal;
+    padding: 10px 30px;
+    margin-top: 22px;
+}
+
+.plan__button:hover {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+.pricing__title {
+    padding-bottom: 25px;
+}
+
+.plan__title {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.plan__price {
+    font-size: 22px;
+    font-weight: 500;
 }

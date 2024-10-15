@@ -27,3 +27,27 @@ body {
     letter-spacing: 3px;
     cursor: pointer;
 }
+
+.plan__header--first {
+    background-color: #E9F4FD;
+}
+
+.plan__header--second {
+    background-color: #FEF4EE;
+}
+
+.plan__header--third {
+    background-color: #E7FCF1;
+}
+
+.plan__price--first {
+    color: #007EF5;
+}
+
+.plan__price--second {
+    color: #FDAD5F;
+}
+
+.plan__price--third {
+    color: #00D362;
+}
