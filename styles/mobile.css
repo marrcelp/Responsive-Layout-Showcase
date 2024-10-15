@@ -85,7 +85,7 @@
 
 /* STYLES FOR SECTION - HERO */
 
-.hero, .features {
+.hero, .features, .reviews {
     width: 100%;
 }
 
@@ -140,7 +140,7 @@
     padding-bottom: 60px;
 }
 
-.features__title, .icon__title, .description__title {
+.features__title, .icon__title, .description__title, .reviews__title {
     font-size: 34px;
     line-height: 40px;
     font-weight: 200;
@@ -198,7 +198,7 @@
     padding: 130px 20px 0 20px;
 }
 
-.features__paragraph {
+.features__paragraph, .reviews__comment {
     color:var(--color-nav);
     font-size: 20px;
     line-height: 36px;
@@ -213,4 +213,63 @@
 .features__image {
     padding-top: 35px;
     max-width: 100%;
+}
+
+
+
+/* STYLE DLA SEKCJI REVIEWS */
+
+.reviews {
+    background-image: url(/images/banner/testmonial.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.reviews__container {
+    padding: 140px 40px;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    position: relative; /* DLACZEGO TO JEST KONIECZNE W TYM PRZYPADKU?*/
+    color: white;
+    
+}
+
+.reviews__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #5EB2FD;
+    opacity: 0.85;
+    z-index: 1;
+
+}
+
+.reviews__rating {
+    display: flex;
+    justify-content: center;
+}
+
+.star {
+    font-size: 24px;
+    color: #FFD35A;
+}
+
+.reviews__title {
+    color: white;
+}
+
+.reviews__comment {
+    text-align: center;
+    color: white;
+    padding: 30px 0;
+}
+
+.rating__author {
+    padding-left: 5px;
 }
