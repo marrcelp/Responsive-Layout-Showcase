@@ -408,8 +408,28 @@
     align-items: center;
     text-decoration: none;
     color: white;
+    margin-right: 10px;
 }
 
 .icons {
     display: flex;
+}
+
+
+.services__title, .links__title, .downloads__title {
+    font-size: 22px;
+    font-weight: 400;
+    padding: 20px 0;
+}
+
+.services__list, .links__list, .downloads__list {
+    list-style: none;
+}
+
+.element, .element__link {
+    font-size: 14px;
+    font-weight: 200;
+    padding: 15px 0;
+    text-decoration: none;
+    color: white;
 }
