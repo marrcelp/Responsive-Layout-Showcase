@@ -394,14 +394,25 @@
 .footer__container {
     background-color: var(--color-nav);
     color: white;
-    padding: 50px 20px;
-    
+    padding: 70px 20px;
+}
+
+.footer__logo {
+    width: 20%;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.footer__desc {
+    font-size: 19px;
+    line-height: 30px;
+    padding-bottom: 40px;
 }
 
 .facebook, .twitter, .instagram {
     background-color: #565656;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -411,13 +422,20 @@
     margin-right: 10px;
 }
 
+.fa-facebook, .fa-twitter, .fa-instagram {
+    font-size: 22px;
+}
+
 .icons {
     display: flex;
 }
 
+.footer__media {
+    padding-bottom: 20px;
+}
 
 .services__title, .links__title, .downloads__title {
-    font-size: 22px;
+    font-size: 26px;
     font-weight: 400;
     padding: 20px 0;
 }
@@ -427,9 +445,14 @@
 }
 
 .element, .element__link {
-    font-size: 14px;
-    font-weight: 200;
-    padding: 15px 0;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 13px 0;
     text-decoration: none;
     color: white;
+    cursor: pointer
+}
+
+.element:hover, .element__link:hover, .facebook:hover, .twitter:hover, .instagram:hover {
+    color: #5EB2FD;
 }
