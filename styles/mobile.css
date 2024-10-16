@@ -123,7 +123,7 @@
 }
 
 .hero__image {
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -151,7 +151,6 @@
 
 .features__icons {
     padding-top: 40px;
-    ;
 }
 
 .icon__title {
@@ -398,8 +397,7 @@
 }
 
 .footer__logo {
-    width: 20%;
-    height: auto;
+    max-width: 100%;
     padding-bottom: 20px;
 }
 
