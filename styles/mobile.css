@@ -388,6 +388,16 @@
     padding-left: 3px;
 }
 
+.appstore, .googleplay {
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
+
+.appstore:hover, .googleplay:hover {
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
 /* STYLES FOR SECTION - FOOTER */
 
 .footer__container {

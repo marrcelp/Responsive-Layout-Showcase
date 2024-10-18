@@ -89,6 +89,10 @@
     width: 100%;
 }
 
+.btn {
+    font-size: 14px;
+}
+
 .hero {
     padding: 50px 20px 0 20px;
     background-image: url("/images/banner/banner.png");
@@ -170,8 +174,8 @@
 }
 
 .icon__title {
-    font-size: 28px;
-    line-height: 40px;
+    font-size: 24px;
+    line-height: 36px;
     letter-spacing: normal;
 }
 
@@ -185,7 +189,7 @@
 .icon {
     text-align: center;
     background-color: red;
-    padding: 40px;
+    padding: 30px;
     border-radius: 20px;
     margin-bottom: 40px;
 }
@@ -215,10 +219,18 @@
 
 .features__paragraph, .reviews__comment, .pricing__description {
     color:var(--color-nav);
-    font-size: 20px;
-    line-height: 36px;
     font-weight: 200;
     padding-bottom: 40px;
+}
+
+.reviews__comment {
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.features__paragraph, .pricing__description {
+    font-size: 16px;
+    line-height: 32px;
 }
 
 .features__button {
@@ -354,8 +366,8 @@
 }
 
 .plan__element {
-    padding: 22px 0;
-    font-size: 20px;
+    padding: 18px 0;
+    font-size: 16px;
     font-weight: 400;
 }
 
@@ -418,6 +430,16 @@
     padding-left: 3px;
 }
 
+.appstore, .googleplay {
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
+
+.appstore:hover, .googleplay:hover {
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
 /* STYLES FOR SECTION - FOOTER */
 
 .footer {
@@ -436,6 +458,10 @@
     gap: 40px;
 }
 
+.row--first {
+    padding-bottom: 20px;
+}
+
 .footer__media, .footer__services, .footer__links, .footer__downloads  {
     width: 50%;
 }
@@ -446,8 +472,8 @@
 }
 
 .footer__desc {
-    font-size: 19px;
-    line-height: 30px;
+    font-size: 16px;
+    line-height: 26px;
     padding-bottom: 40px;
 }
 
@@ -477,9 +503,10 @@
 }
 
 .services__title, .links__title, .downloads__title {
-    font-size: 26px;
+    font-size: 22px;
     font-weight: 400;
-    padding: 20px 0;
+    /* padding: 20px 0; */
+    padding-bottom: 20px;
 }
 
 .services__list, .links__list, .downloads__list {
@@ -487,7 +514,7 @@
 }
 
 .element, .element__link {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
     padding: 13px 0;
     text-decoration: none;
