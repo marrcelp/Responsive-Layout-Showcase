@@ -209,6 +209,11 @@
     background-color: #0081F5;
 }
 
+.features__button--link {
+    text-decoration: none;
+    color: white;
+}
+
 .features__image {
     padding-top: 35px;
     max-width: 100%;
