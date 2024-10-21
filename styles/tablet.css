@@ -95,7 +95,7 @@
 
 .hero {
     padding: 50px 20px 0 20px;
-    background-image: url("/images/banner/banner.png");
+    background-image: url("../images/banner/banner.png");
     background-position: 20% -70px;
     background-size: cover;
     background-repeat: no-repeat;
