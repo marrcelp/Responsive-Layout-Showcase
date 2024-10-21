@@ -252,7 +252,7 @@
 /* STYLES FOR SECTION - REVIEWS */
 
 .reviews {
-    background-image: url(/images/banner/testmonial.png);
+    background-image: url("../images/banner/testmonial.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
